@@ -1,3 +1,4 @@
+import 'regenerator-runtime/runtime'; // polyfill for async/await
 import 'css.escape'; // polyfill
 
 import Environment from 'core/environment';

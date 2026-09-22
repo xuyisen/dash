@@ -41,6 +41,7 @@ module.exports = (env, argv) => {
     });
 
     return {
+        target: ["web", "es5"],
         mode,
         entry,
         output: {

@@ -23,6 +23,7 @@ module.exports = (options = {}) => {
             demo: entry.concat(['./demo/index.html', './demo/index.js'])
         },
         mode: mode,
+        target: ["web", "es5"],
         output: {
             path: path.resolve(__dirname, `./../../${dashLibraryName}`),
             filename: '[name].js',
